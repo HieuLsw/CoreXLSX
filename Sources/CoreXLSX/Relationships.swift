@@ -1,11 +1,9 @@
 //
 //  Relationships.swift
-//  XLSXReader
+//  CoreXLSX
 //
 //  Created by Max Desiatov on 27/10/2018.
 //
-
-import Foundation
 
 struct Relationships: Codable {
   let items: [Relationship]

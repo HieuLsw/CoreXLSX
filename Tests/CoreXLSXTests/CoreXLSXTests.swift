@@ -1,7 +1,14 @@
+//
+//  CoreXLSXTests.swift
+//  CoreXLSXTests
+//
+//  Created by Max Desiatov on 27/10/2018.
+//
+
 import XCTest
 @testable import CoreXLSX
 
-final class XLSXReaderTests: XCTestCase {
+final class CoreXLSXTests: XCTestCase {
   let currentWorkingPath = ProcessInfo.processInfo.environment["TESTS_PATH"]!
   let sheetPath = "xl/worksheets/sheet1.xml"
 
